@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# SPORTSEE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://user.oc-static.com/upload/2020/08/18/15977560509272_logo%20%285%29.png">
+</p>
 
-Currently, two official plugins are available:
+## Contexte
+Vous travaillez pour le département technologique d'une grande société financière, WealthHealth. 
+Cette société utilise une application web interne, appelée HRnet, qui gère les dossiers des employés. L'application est ancienne et utilise jQuery côté front end, ce qui entraîne des bugs considérables et une augmentation des plaintes en interne. Votre équipe de développement s'efforce depuis un certain temps déjà de mettre à niveau l'application.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Author
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- David DE FREITAS
 
-- Configure the top-level `parserOptions` property like this:
+## Technos
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,css,figma,github" />
+  </a>
+</p>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Compétences évaluées
+
+- Analyser la performance d'une application web
+- Déployer une application front-end
+- Refondre une application pour réduire la dette technique
+- Mettre en place son environnement Front-End
+- Produire de la documentation technique pour une application
+
+
+## Lancer le projet
+
+- Lancer la commande `pnpm install`
+- Lancer la commande `pnpm dev`
