@@ -1,3 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faUser,
+  faRectangleList,
+  faHouse,
+  faBriefcase,
+  faBlog,
+  faIdCard,
+  faPaperPlane,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+import { FaLinkedin } from "react-icons/fa";
 import "./HeadBand.css";
 
 const HeadBand = () => {
@@ -10,28 +22,57 @@ const HeadBand = () => {
       <nav>
         <ul className="headBand-navigation ">
           <li>
-            <span></span> Accueil
+            <span className="headband-span">
+              <FontAwesomeIcon icon={faHouse} />
+            </span>{" "}
+            Accueil
           </li>
           <li>
-            <span></span> À propos de moi
+            <span className="headband-span">
+              <FontAwesomeIcon icon={faUser} />
+            </span>{" "}
+            À propos de moi
           </li>
           <li>
-            <span></span> Compétences
+            <span className="headband-span">
+              <FontAwesomeIcon icon={faRectangleList} />
+            </span>{" "}
+            Compétences
           </li>
           <li>
-            <span></span> Portfolio
+            <span className="headband-span">
+              <FontAwesomeIcon icon={faBriefcase} />
+            </span>{" "}
+            Portfolio
           </li>
           <li>
-            <span></span> Blog
+            <span className="headband-span">
+              <FontAwesomeIcon icon={faBlog} />
+            </span>{" "}
+            Blog
           </li>
           <li>
-            <span></span> Contact
+            <span className="headband-span">
+              <FontAwesomeIcon icon={faIdCard} />
+            </span>{" "}
+            Contact
           </li>
         </ul>
       </nav>
 
       <footer>
-        <div className="icon"></div>
+        <div className="all-icons">
+          <span>
+            <FontAwesomeIcon icon={faPaperPlane} size="xs" />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faPhone} size="xs" />
+          </span>
+
+          <span>
+            <FaLinkedin size="15" />
+          </span>
+        </div>
         <span className="roboto-medium-italic">© 2024 David de Freitas</span>
       </footer>
     </section>

@@ -6,7 +6,7 @@
   color: white;
   height: 100%;
   padding: 30px;
-  width: 20%;
+  width: 30%;
 }
 
 .Headband h1 {
@@ -26,6 +26,24 @@
 }
 
 .headBand-navigation li:hover,
-.style-first-letter {
+.style-first-letter,
+.all-icons span:hover {
   color: var(--secondColor);
+}
+
+.headband-span {
+  margin-right: 10px;
+}
+
+.all-icons {
+  display: flex;
+  gap: 30%;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 860px) {
+  .Headband {
+    display: none;
+  }
 }
