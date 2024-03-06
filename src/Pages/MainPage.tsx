@@ -1,7 +1,12 @@
+import HeadBand from "../Component/HeadBand/HeadBand";
+import Home from "../Component/Home/Home";
+import "./MainPage.css";
+
 const MainPage = () => {
   return (
-    <main>
-      <h1>Page</h1>
+    <main className="main-container">
+      <HeadBand />
+      <Home />
     </main>
   );
 };
