@@ -2,10 +2,24 @@ import "./Home.css";
 import { Typewriter } from "react-simple-typewriter";
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
+import {
+  type Container,
+  ISourceOptions,
+  MoveDirection,
+} from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
+
+type MyParticlesOptions = ISourceOptions & {
+  particles: {
+    move: {
+      direction: MoveDirection | "none";
+    };
+  };
+};
 
 const Home = () => {
   const [init, setInit] = useState(false);
+
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
@@ -14,15 +28,15 @@ const Home = () => {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
+  const particlesLoaded = async (container?: Container): Promise<void> => {
     console.log(container);
   };
 
-  const options = useMemo(
+  const options = useMemo<MyParticlesOptions>(
     () => ({
       background: {
         color: {
-          value: "#242424",
+          value: "#0f0f0f",
         },
       },
       fpsLimit: 120,
@@ -59,7 +73,7 @@ const Home = () => {
           width: 1,
         },
         move: {
-          direction: "none",
+          direction: "none" as const,
           enable: true,
           outModes: {
             default: "bounce",
