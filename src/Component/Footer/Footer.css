@@ -1,3 +1,14 @@
+footer {
+  z-index: 1;
+  height: 100px;
+  background-color: var(--backgroundHeadBand);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (min-width: 860px) {
   .footer {
     display: none;

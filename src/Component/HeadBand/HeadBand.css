@@ -7,6 +7,7 @@
   height: 100%;
   padding: 30px;
   width: 30%;
+  z-index: 1;
 }
 
 .Headband h1 {
@@ -37,7 +38,7 @@
 
 .all-icons {
   display: flex;
-  gap: 30%;
+  gap: 20px;
   cursor: pointer;
   margin-bottom: 20px;
 }

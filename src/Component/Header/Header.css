@@ -5,6 +5,7 @@
   background-color: var(--backgroundHeadBand);
   color: white;
   padding: 20px;
+  z-index: 1;
 }
 
 .header h1 {
