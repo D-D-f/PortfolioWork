@@ -1,0 +1,30 @@
+.about-page {
+  background-color: var(--backgroundMainPage);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  height: 100%;
+  color: white;
+}
+
+.image-about-page img {
+  width: 200px;
+  height: 300px;
+  border: 1px solid var(--secondColor);
+}
+
+.text-presentation-about-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.presentation {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

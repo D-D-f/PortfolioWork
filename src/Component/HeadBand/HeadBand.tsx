@@ -10,6 +10,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./HeadBand.css";
 
 const HeadBand = () => {
@@ -25,13 +26,13 @@ const HeadBand = () => {
             <span className="headband-span">
               <FontAwesomeIcon icon={faHouse} />
             </span>{" "}
-            Accueil
+            <Link to="/">Accueil</Link>
           </li>
           <li>
             <span className="headband-span">
               <FontAwesomeIcon icon={faUser} />
             </span>{" "}
-            À propos de moi
+            <Link to="/about">À propos de moi</Link>
           </li>
           <li>
             <span className="headband-span">
