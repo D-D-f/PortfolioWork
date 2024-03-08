@@ -4,13 +4,9 @@ import img from "../../asset/img/moi.webp";
 const About = () => {
   return (
     <section className="about-page">
-      <h2>À propos de moi</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum odio sunt
-        deserunt dolore expedita aperiam, voluptate explicabo suscipit
-        architecto, aliquid facere natus. Aut laudantium, dolor odit totam vero
-        sed earum!
-      </p>
+      <div className="page-aboutme">
+        <h2 className="roboto-bold">À propos de moi</h2>
+      </div>
 
       <div className="text-presentation-about-page">
         <div className="image-about-page">
@@ -19,8 +15,8 @@ const About = () => {
 
         <div className="presentation">
           <div className="presentation-title">
-            <h3>David de Freitas</h3>
-            <h4>Développeur React</h4>
+            <h3 className="madimi-one-regular">David de Freitas</h3>
+            <h4 className="madimi-one-regular">Développeur React</h4>
           </div>
 
           <p>
