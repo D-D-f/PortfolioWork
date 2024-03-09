@@ -19,15 +19,23 @@ const About = () => {
             <h4 className="madimi-one-regular">Développeur React</h4>
           </div>
 
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
-            accusamus repellat soluta consectetur eveniet est, alias corrupti
-            voluptatem dicta, facere deserunt porro quod adipisci corporis sed,
-            earum odio accusantium? Soluta.
+          <p className="roboto-regular">
+            Salut, je m'appelle David, et je suis un développeur web front-end
+            passionné et créatif. Fraîchement diplômé d'une formation en React
+            avec un diplôme de niveau bac +4, je suis actuellement en pleine
+            reconversion professionnelle pour réaliser ma passion : le
+            développement. Je code chaque jour pour rester à jour avec les
+            dernières technologies, affiner mes compétences et relever de
+            nouveaux défis. Mon engagement envers l'apprentissage continu me
+            permet d'apporter des solutions innovantes à chaque projet.
           </p>
 
           <div>
-            <button>Télécharger mon CV</button>
+            <button className="btn_cv">
+              <a href="chemin/vers/ton-fichier.zip" download="Mon CV">
+                Télécharger le fichier
+              </a>
+            </button>
           </div>
         </div>
       </div>

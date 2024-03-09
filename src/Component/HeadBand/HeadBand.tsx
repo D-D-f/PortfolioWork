@@ -32,7 +32,7 @@ const HeadBand = () => {
             <span className="headband-span">
               <FontAwesomeIcon icon={faUser} />
             </span>{" "}
-            <Link to="/about">À propos de moi</Link>
+            <Link to={"/about"}>À propos de moi</Link>
           </li>
           <li>
             <span className="headband-span">
