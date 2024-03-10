@@ -15,7 +15,7 @@ const About = () => {
 
         <div className="presentation">
           <div className="presentation-title">
-            <h3 className="madimi-one-regular">David de Freitas</h3>
+            <h3 className="madimi-one-regular">David De Freitas</h3>
             <h4 className="madimi-one-regular">Développeur React</h4>
           </div>
 
