@@ -1,76 +1,56 @@
 .about-page {
-  background-color: var(--backgroundMainPage);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
   padding: 50px;
-  height: 100%;
   color: white;
-  width: 100%;
 }
 
-.image-about-page img {
-  width: 200px;
-  height: 100%;
-  border: 5px solid var(--secondColor);
+.about-page h2 {
+  font-size: 3rem;
+  text-align: center;
 }
 
-.text-presentation-about-page {
+.container-presentation {
+  margin-top: 50px;
   display: flex;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.presentation {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  margin-left: 50px;
-  text-align: justify;
+  align-items: center;
+  gap: 50px;
 }
 
-.presentation-title h3 {
-  font-size: 2.5rem;
+.myimg {
+  width: 200px;
+  border-left: 2px solid var(--secondColor);
+  border-bottom: 2px solid var(--secondColor);
+}
+
+.container-presentation p {
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.text-presentation {
+  padding: 20px;
+}
+
+.text-presentation button {
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
+  background-color: var(--secondColor);
+  cursor: pointer;
+}
+
+.text-presentation button a {
+  text-decoration: none;
+  color: var(--backgroundMainPage);
+  font-weight: bold;
+}
+
+.text-presentation .title h3 {
+  font-size: 2rem;
   color: var(--secondColor);
 }
 
-.presentation-title h4 {
+.text-presentation .title h4 {
   font-size: 1.5rem;
-}
-
-.presentation p {
-  padding-right: 20px;
-}
-
-.page-aboutme {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.page-aboutme h2 {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.page-aboutme p {
-  width: 50%;
-  text-align: center;
-}
-
-.btn_cv {
-  padding: 10px;
-  background-color: var(--secondColor);
-  border: none;
-  border-radius: 5px;
-}
-
-.btn_cv a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
 }

@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.container-pages {
+  width: 100%;
+}
+
 @media screen and (max-width: 860px) {
   .main-container {
     display: flex;

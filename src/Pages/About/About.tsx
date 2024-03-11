@@ -4,39 +4,36 @@ import img from "../../asset/img/moi.webp";
 const About = () => {
   return (
     <section className="about-page">
-      <div className="page-aboutme">
-        <h2 className="roboto-bold">À propos de moi</h2>
-      </div>
+      <h2>À propos de moi</h2>
 
-      <div className="text-presentation-about-page">
-        <div className="image-about-page">
-          <img src={img} alt="ma photo de profil" />
-        </div>
+      <div className="container-presentation">
+        <img className="myimg" src={img} alt="ma photo" />
 
-        <div className="presentation">
-          <div className="presentation-title">
-            <h3 className="madimi-one-regular">David de Freitas</h3>
-            <h4 className="madimi-one-regular">Développeur React</h4>
+        <div className="text-presentation">
+          <div className="title">
+            <h3>David DE FREITAS</h3>
+            <h4>Développeur React</h4>
           </div>
 
-          <p className="roboto-regular">
-            Salut, je m'appelle David, et je suis un développeur web front-end
-            passionné et créatif. Fraîchement diplômé d'une formation en React
-            avec un diplôme de niveau bac +4, je suis actuellement en pleine
-            reconversion professionnelle pour réaliser ma passion : le
-            développement. Je code chaque jour pour rester à jour avec les
-            dernières technologies, affiner mes compétences et relever de
-            nouveaux défis. Mon engagement envers l'apprentissage continu me
-            permet d'apporter des solutions innovantes à chaque projet.
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            inventore enim architecto, libero sit, repellat mollitia a
+            reprehenderit consectetur ratione veritatis optio velit numquam.
+            Tenetur magnam vel obcaecati enim odit porro consectetur? Doloremque
+            iure quisquam, odio amet recusandae eligendi reiciendis. Blanditiis
+            quam expedita unde nesciunt ut corporis, saepe laudantium, tempora
+            numquam voluptate nemo voluptates, sed eum. Error modi facilis fuga
+            recusandae. Provident, sapiente autem? Ullam dolorum nihil
+            voluptates ratione, quae quis earum neque, excepturi consectetur
+            laboriosam facilis nesciunt quo numquam tempore nisi voluptatem
+            tempora culpa non perspiciatis! Possimus quod quibusdam, facilis nam
+            blanditiis ullam quo. Ad quidem rem eligendi atque?
           </p>
-
-          <div>
-            <button className="btn_cv">
-              <a href="chemin/vers/ton-fichier.zip" download="Mon CV">
-                Télécharger le fichier
-              </a>
-            </button>
-          </div>
+          <button>
+            <a href="" download>
+              Télécharger mon CV
+            </a>
+          </button>
         </div>
       </div>
     </section>

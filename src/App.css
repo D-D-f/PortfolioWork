@@ -8,6 +8,10 @@
   --secondColor: #fec576;
 }
 
+#root {
+  background-color: var(--backgroundMainPage);
+}
+
 .madimi-one-regular {
   font-family: "Madimi One", sans-serif;
   font-weight: 400;

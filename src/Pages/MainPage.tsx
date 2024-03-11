@@ -9,7 +9,9 @@ const MainPage = () => {
     <main className="main-container">
       <Header />
       <HeadBand />
-      <RoutesProject />
+      <div className="container-pages">
+        <RoutesProject />
+      </div>
       <Footer />
     </main>
   );
