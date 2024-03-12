@@ -1,0 +1,51 @@
+import React, { ReactNode } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHouse,
+  faUser,
+  faRectangleList,
+  faIdCard,
+} from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+import "./Navigation.css";
+
+const Navigation: React.FC = () => {
+  const listNav: ReactNode[] = [
+    <span>
+      <Link to="/">
+        <FontAwesomeIcon icon={faHouse} />{" "}
+        <span className="span-text-nav">Accueil</span>
+      </Link>
+    </span>,
+    <span>
+      <Link to="/about">
+        <FontAwesomeIcon icon={faUser} />{" "}
+        <span className="span-text-nav">À propos de moi</span>
+      </Link>
+    </span>,
+    <span>
+      <Link to="/projects">
+        <FontAwesomeIcon icon={faRectangleList} />{" "}
+        <span className="span-text-nav">Projets</span>
+      </Link>
+    </span>,
+    <span>
+      <Link to="/contact">
+        <FontAwesomeIcon icon={faIdCard} />{" "}
+        <span className="span-text-nav">Contact</span>
+      </Link>
+    </span>,
+  ];
+
+  const displayListNav = listNav.map((value, index) => (
+    <li key={index}>{value}</li>
+  ));
+
+  return (
+    <nav>
+      <ul>{displayListNav}</ul>
+    </nav>
+  );
+};
+
+export default Navigation;

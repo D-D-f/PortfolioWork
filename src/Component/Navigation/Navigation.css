@@ -1,0 +1,28 @@
+nav ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li a:hover {
+  color: var(--yellow);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 860px) {
+  .span-text-nav {
+    display: none;
+    border: 1px solid;
+  }
+
+  nav ul {
+    gap: 30px;
+  }
+}

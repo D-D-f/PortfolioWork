@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
 
 :root {
-  --primaryColor: #2d3250;
-  --secondColor: #f9b17a;
-  --threeColor: #424769;
-  --lastColor: #676f9d;
-  --colorFont: #fff;
+  --yellow: #ffc107;
+  --blue: linear-gradient(
+    159deg,
+    rgba(37, 37, 50, 0.98) 0%,
+    rgba(35, 35, 45, 0.98) 100%
+  );
 }
 
 * {
@@ -17,10 +18,14 @@
 html,
 body,
 #root {
+  background-color: #191923;
+  font-family: "Madimi One", sans-serif;
   height: 100%;
-  width: 100%;
-  font-family: "Raleway", sans-serif;
+}
+
+#pages {
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
