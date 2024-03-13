@@ -1,11 +1,12 @@
 .card figure img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin: auto;
 }
 
-.card {
+.card,
+.card-competence {
   padding: 20px;
   background: var(--blue);
   width: 300px;
@@ -77,14 +78,57 @@ figure h4 {
   align-items: center;
   margin-top: 30px;
   gap: 20px;
+  width: 50%;
 }
 
 .text-presentation {
   color: var(--fontPolice);
   text-align: justify;
   font-style: italic;
+  font-family: var(--secondFont);
 }
 
 .presentation h3 {
   color: #fff;
+}
+
+.icon-langage {
+  width: 30px;
+  height: 30px;
+}
+
+.all-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.all-icons figure figcaption {
+  font-family: var(--secondFont);
+  font-size: 9px;
+  margin-top: 4px;
+}
+
+.card-competence h4 {
+  color: #fff;
+}
+
+.card-competence {
+  margin-top: 50px;
+}
+
+.all-card-competence {
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1020px) {
+  .all-card-competence {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .presentation {
+    width: 90%;
+  }
 }

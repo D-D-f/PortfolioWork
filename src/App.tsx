@@ -7,7 +7,9 @@ const App = () => {
   return (
     <div id="pages">
       <Header />
-      <RoutesProject />
+      <main>
+        <RoutesProject />
+      </main>
       <Footer />
     </div>
   );
