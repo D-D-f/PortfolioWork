@@ -17,6 +17,7 @@ import nextjs from "../../asset/logo/next-js-svgrepo-com.svg";
 import nodejs from "../../asset/logo/node-js-svgrepo-com.svg";
 import java from "../../asset/logo/java-4-logo-svgrepo-com.svg";
 import angular from "../../asset/logo/angular-icon-svgrepo-com.svg";
+import mongodb from "../../asset/logo/mongodb-svgrepo-com.svg";
 import "./Home.css";
 
 const Home: React.FC = () => {
@@ -138,6 +139,12 @@ const Home: React.FC = () => {
             <figure>
               <img className="icon-langage" src={angular} alt="logo angular" />
               <figcaption>Angular</figcaption>
+            </figure>
+          </div>
+          <div className="all-icons">
+            <figure>
+              <img className="icon-langage" src={mongodb} alt="logo mongodb" />
+              <figcaption>Mongo DB</figcaption>
             </figure>
           </div>
         </div>
