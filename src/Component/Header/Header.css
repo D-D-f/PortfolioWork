@@ -4,7 +4,7 @@
 
 header {
   background: var(--blue);
-  color: white;
+  color: var(--fontPolice);
   padding: 30px;
   display: flex;
   justify-content: space-between;

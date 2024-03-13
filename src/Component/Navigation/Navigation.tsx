@@ -2,7 +2,6 @@ import React, { ReactNode } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
-  faUser,
   faRectangleList,
   faIdCard,
 } from "@fortawesome/free-solid-svg-icons";
@@ -15,12 +14,6 @@ const Navigation: React.FC = () => {
       <Link to="/">
         <FontAwesomeIcon icon={faHouse} />{" "}
         <span className="span-text-nav">Accueil</span>
-      </Link>
-    </span>,
-    <span>
-      <Link to="/about">
-        <FontAwesomeIcon icon={faUser} />{" "}
-        <span className="span-text-nav">À propos de moi</span>
       </Link>
     </span>,
     <span>

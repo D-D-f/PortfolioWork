@@ -1,0 +1,90 @@
+.card figure img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.card {
+  padding: 20px;
+  background: var(--blue);
+  width: 300px;
+  border-radius: 10px;
+  color: var(--fontPolice);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+figure {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--fontPolice);
+}
+
+.contact a:hover {
+  color: var(--fontHover);
+}
+
+figure h3 {
+  color: #fff;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+figure h4 {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 50px;
+}
+
+.dowloadCV {
+  padding: 10px;
+  background: var(--yellow);
+  border: none;
+  border-radius: 10px;
+}
+
+.dowloadCV a {
+  text-decoration: none;
+  color: var(--fontPolice);
+  font-family: var(--secondFont);
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.text-presentation {
+  color: var(--fontPolice);
+  text-align: justify;
+  font-style: italic;
+}
+
+.presentation h3 {
+  color: #fff;
+}

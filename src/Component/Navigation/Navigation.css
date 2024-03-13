@@ -6,12 +6,12 @@ nav ul {
 }
 
 nav ul li a:hover {
-  color: var(--yellow);
+  color: var(--fontHover);
 }
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: var(--fontPolice);
   font-size: 1.2rem;
   cursor: pointer;
 }

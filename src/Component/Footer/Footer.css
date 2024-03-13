@@ -7,6 +7,10 @@ footer {
   justify-content: space-between;
 }
 
+footer h2 {
+  font-weight: 300;
+}
+
 .contact-footer {
   display: flex;
   gap: 20px;
@@ -14,10 +18,15 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: var(--fontPolice);
 }
 
 footer h2 {
-  font-size: 1.4rem;
-  color: #fff;
+  font-size: 1.2rem;
+  color: var(--fontPolice);
+  font-style: italic;
+}
+
+.contact-footer a:hover {
+  color: var(--fontHover);
 }
