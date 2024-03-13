@@ -30,4 +30,5 @@ footer h2 {
 
 .contact-footer a:hover {
   color: var(--fontHover);
+  animation: tilt-shaking 0.15s infinite;
 }

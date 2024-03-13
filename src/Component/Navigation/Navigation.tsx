@@ -1,10 +1,6 @@
 import React, { ReactNode } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHouse,
-  faRectangleList,
-  faIdCard,
-} from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faRectangleList } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
 
@@ -20,12 +16,6 @@ const Navigation: React.FC = () => {
       <Link to="/projects">
         <FontAwesomeIcon icon={faRectangleList} />{" "}
         <span className="span-text-nav">Projets</span>
-      </Link>
-    </span>,
-    <span>
-      <Link to="/contact">
-        <FontAwesomeIcon icon={faIdCard} />{" "}
-        <span className="span-text-nav">Contact</span>
       </Link>
     </span>,
   ];

@@ -121,6 +121,11 @@ figure h4 {
   gap: 30px;
 }
 
+.icon-langage:hover,
+.contact a:hover {
+  animation: tilt-shaking 0.15s infinite;
+}
+
 @media screen and (max-width: 1020px) {
   .all-card-competence {
     flex-direction: column;
