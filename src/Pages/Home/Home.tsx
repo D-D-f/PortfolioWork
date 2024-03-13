@@ -51,14 +51,14 @@ const Home: React.FC = () => {
       <div className="presentation">
         <h3>Bienvenue sur mon portfolio !</h3>
         <p className="text-presentation">
-          Bonjour, je suis David, un développeur de 32 ans. Titulaire d'un
-          diplôme Bac +4 en formation React, je suis actuellement en
-          reconversion. Passionné par l'univers du web, je suis animé par une
-          curiosité insatiable qui me pousse à explorer de nouvelles
-          possibilités. Mon parcours témoigne de mon engagement envers le
-          développement et l'intégration web, où chaque ligne de code est une
-          opportunité d'apprentissage. Prêt à relever de nouveaux défis et à
-          contribuer à des projets passionnants dans le monde numérique.
+          Bonjour, je suis David. Titulaire d'un diplôme Bac +4 en formation
+          React, je suis actuellement en reconversion. Passionné par l'univers
+          du web, je suis animé par une curiosité insatiable qui me pousse à
+          explorer de nouvelles possibilités. Mon parcours témoigne de mon
+          engagement envers le développement et l'intégration web, où chaque
+          ligne de code est une opportunité d'apprentissage. Prêt à relever de
+          nouveaux défis et à contribuer à des projets passionnants dans le
+          monde numérique.
         </p>
       </div>
 
