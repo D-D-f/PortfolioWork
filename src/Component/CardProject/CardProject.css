@@ -1,0 +1,36 @@
+.card-project {
+  background: var(--blue);
+  width: 300px;
+  border-radius: 10px;
+  color: var(--fontPolice);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: var(--secondFont);
+  padding: 10px 10px;
+  height: 400px;
+}
+
+.stack,
+.link-project {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.stack figure img {
+  width: 20px;
+}
+
+.link-project span a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page-project {
+  padding: 50px;
+  height: 100%;
+}
