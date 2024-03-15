@@ -1,0 +1,4 @@
+git add dist/* 
+git commit -m "update dist"
+git remote add origin "https://github.com/D-D-f/MyPortfolio.git"
+git push origin main
