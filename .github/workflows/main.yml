@@ -1,4 +1,30 @@
-git add dist/* 
-git commit -m "update dist"
-git remote add origin "https://github.com/D-D-f/MyPortfolio.git"
-git push origin main
+name: Publish to Portfolio
+
+"on":
+  push:
+    branches:
+      - main
+    paths:
+      - 'dist/**'
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Creates output folder and remove markdown
+        run:  |
+              mkdir output
+              cp -r dist/** output
+      - name: Pushes to public repository
+        id: push_directory
+        uses: D-D-f/MyPortfolio@ssh-deploy-key
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.WORKFLOW_DEPLOY_KEY }}
+        with:
+          source-directory: output/
+          destination-github-username: 'D-D-f'
+          destination-repository-name: 'MyPortfolio'
+          user-email: defreitas-david@outlook.fr
+          commit-message: pushed from $GITHUB_REF
+          target-branch: main
