@@ -17,10 +17,10 @@ const Projects: React.FC = () => {
     },
     {
       img: img1,
-      title: "Portfolio en format VS CODE",
+      title: "Le jeu du pendu sur le thème pokemon",
       stack: [reactIcon, githubIcon, pnpmIcon],
-      link: "https://david-defreitas-portfolio.netlify.app",
-      github: "https://github.com/D-D-f/Portfolio?tab=readme-ov-file",
+      link: "https://d-d-f.github.io/pendu_pokemon/",
+      github: "https://github.com/D-D-f/pendu_pokemon",
     },
     {
       img: img1,
