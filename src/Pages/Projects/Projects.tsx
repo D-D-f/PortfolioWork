@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
     },
     {
       img: img1,
-      title: "Portfolio en format VS COD",
+      title: "Portfolio en format VS CODE",
       stack: [reactIcon, githubIcon, pnpmIcon],
       link: "https://david-defreitas-portfolio.netlify.app",
       github: "https://github.com/D-D-f/Portfolio?tab=readme-ov-file",
